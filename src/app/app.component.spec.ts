@@ -1,7 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
-
 import { AppComponent } from './app.component';
-
 describe('AppComponent', () => {
   beforeEach(
     async(() => {
@@ -10,7 +8,6 @@ describe('AppComponent', () => {
       }).compileComponents();
     })
   );
-
   it(
     'should create the app',
     async(() => {
@@ -19,7 +16,6 @@ describe('AppComponent', () => {
       expect(app).toBeTruthy();
     })
   );
-
   it(
     `should have as title 'app'`,
     async(() => {
@@ -28,7 +24,6 @@ describe('AppComponent', () => {
       expect(app.title).toEqual('app');
     })
   );
-
   it(
     'should render title in a h1 tag',
     async(() => {

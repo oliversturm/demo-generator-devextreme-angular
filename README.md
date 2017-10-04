@@ -1,10 +1,27 @@
 # DevExtreme with Angular
 
-This starter project has been created by [generator-devextreme](https://github.com/oliversturm/generator-devextreme) and includes [Angular](https://angular.io/) and [DevExtreme](https://js.devexpress.com/) widgets. 
+This starter project has been created by [generator-devextreme](https://github.com/oliversturm/generator-devextreme) version 1.0.6 and includes [Angular](https://angular.io/) and [DevExtreme](https://js.devexpress.com/) widgets. 
 
-Based on options used when the generator was run, localization support has been included on the basis of [Intl](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Intl) and the [DevExtreme-Intl](https://github.com/DevExpress/DevExtreme-Intl) library. In addition to the language files for the 'en' locale, which are included by default, the following locales have also been added: de, ja, en-GB.
+These options were used to generate the project:
 
-The template for this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+```
+{
+  "appname": "demo-generator-devextreme-angular",
+  "apptype": "angular",
+  "localization": "intl",
+  "locales": [
+    "de",
+    "ja",
+    "en-GB"
+  ],
+  "bundling": "angular-cli",
+  "language": "ts"
+}
+```
+
+Based on the options, localization support has been included on the basis of [Intl](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Intl) and the [DevExtreme-Intl](https://github.com/DevExpress/DevExtreme-Intl) library. In addition to the language files for the 'en' locale, which are included by default, the following locales have also been added: de, ja, en-GB.
+
+The template for this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
 
 ## Install dependencies
 
@@ -37,7 +54,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
